@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lantern Studio – Fast, clear websites for small businesses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fixed navigation: copy this block + the CSS/JS to every page -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <a href="#home" class="logo">Lantern<span>.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact" class="cta">Contact us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="wrap">
+        <h1>Websites that load fast and read well</h1>
+        <p>We design and build simple, mobile-friendly sites for small businesses, so your customers find what they need in seconds.</p>
+        <a href="#contact" class="btn">Start your project</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2>A small team that answers its email</h2>
+        <p class="lead">Lantern Studio is a team of designers and developers. We keep every project plain and quick: one clear goal per page, no bloated plugins, and a site you can update yourself after launch.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>What we build</h2>
+        <div class="services-list">
+          <div class="service">
+            <h3>Landing pages</h3>
+            <p>A single page that explains your offer and gets visitors to call, book, or buy.</p>
+          </div>
+          <div class="service">
+            <h3>Business websites</h3>
+            <p>Multi-page sites with a menu that works on every phone, tablet, and laptop.</p>
+          </div>
+          <div class="service">
+            <h3>Site fixes and upgrades</h3>
+            <p>We speed up slow pages, repair broken layouts, and make old sites mobile-friendly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <h2>Tell us about your project</h2>
+        <p class="lead">Share a few details and we will reply within two working days.</p>
+        <form id="contact-form" novalidate>
+          <label>Your name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>Email address
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>Project details
+            <textarea name="message" required></textarea>
+          </label>
+          <button type="submit" class="btn">Send message</button>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Lantern Studio. All rights reserved.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+ 
